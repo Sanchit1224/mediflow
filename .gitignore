@@ -1,0 +1,42 @@
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# Java / Gradle / Maven build artifacts
+**/target/
+**/build/
+.gradle/
+*.class
+*.jar
+*.war
+
+# Logs and runtime data
+*.log
+logs/
+data/
+postgres-data/
+redis-data/
+prometheus-data/
+grafana-data/
+
+# Test outputs
+**/surefire-reports/
+**/failsafe-reports/
+**/.scannerwork/

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply border-line; }
+  html { @apply bg-canvas text-slate-100 antialiased; }
+  body { @apply min-h-screen bg-canvas font-sans; background-image: radial-gradient(circle at 50% -20%, rgba(37, 137, 244, .19), transparent 33%), radial-gradient(circle at 0% 55%, rgba(9, 191, 210, .07), transparent 28%); }
+  button, input { font: inherit; }
+}
+
+@layer components {
+  .glass-panel { @apply border border-line bg-slate-950/35 backdrop-blur-xl shadow-glow; }
+  .focus-ring { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 focus-visible:ring-offset-canvas; }
+}
