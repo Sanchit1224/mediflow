@@ -48,8 +48,4 @@ Copy the environment templates before running local services:
 Copy-Item frontend/.env.example frontend/.env
 Copy-Item backend/.env.example backend/.env
 ```
-
-Do not commit `.env` files, credentials, private keys, or cloud service-account files. Production values must be injected through the deployment platform or a managed secret store.
-=======
 # mediflow
->>>>>>> f426f4c607a99eaaaf8f53a567f5cae77a0e9675
