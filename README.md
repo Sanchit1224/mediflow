@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MediFlow
 
 MediFlow is an AI-powered Hospital Operations Intelligence Platform. It gives hospital operations teams a real-time command center, predictive cascade-risk intelligence, intervention simulations, and AI-assisted shift handovers.
@@ -49,3 +50,6 @@ Copy-Item backend/.env.example backend/.env
 ```
 
 Do not commit `.env` files, credentials, private keys, or cloud service-account files. Production values must be injected through the deployment platform or a managed secret store.
+=======
+# mediflow
+>>>>>>> f426f4c607a99eaaaf8f53a567f5cae77a0e9675
